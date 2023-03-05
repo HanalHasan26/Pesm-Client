@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500&display=swap');
+
+.card1{
+    width: 145px;
+    height: 208px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    background-image: url('img1.png'); 
+    background-size: cover ;     
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.number{
+    display: flex;
+    position: absolute ;
+    background-color: transparent;
+    line-height: 0;
+    top: 22px;
+    left: 13px;
+    font-size: 25px; 
+    font-weight: 600;
+    color: aliceblue;
+    font-family: 'Lost Highway', sans-serif;
+                                                
+}
+.position{
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    top: 45px;
+    left:17px ;
+    line-height: 0;
+    font-size: 10px;
+    font-weight: 600;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.teamLogo{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 57.5px;
+    left: 13px;
+    background-color: transparent;
+    background-repeat:no-repeat ;
+    background-size: cover ;
+
+    
+}
+.playerDp{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    background-size: cover ;
+    left: 65px;
+    top: 5px;
+    position: absolute;
+    background-repeat: no-repeat;
+
+}
+.star{
+    position: absolute;
+    background-color: transparent;
+    top: 70px;
+    left: 59px;
+    color: yellow;
+}
+.pleyerName{
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    top: 90px;
+    left: 50.5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: aliceblue;
+}
+.pleyerNameLength{
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    top: 90px;
+    left: 23px;
+    font-size: 15px;
+    font-weight: 500;
+    color: aliceblue; 
+}
+.pleyerNameLength1{
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    top: 90px;
+    left: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    color: aliceblue; 
+}
+.pleyerNameLength2{
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    top: 90px;
+    left: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: aliceblue; 
+}
+
+
+.playerBody{
+    position: absolute;
+    background-color: transparent;
+    top: 110px;
+    left: 22px;
+    font-size: small;
+    font-weight: 500;
+    color: aliceblue;
+    font-family: 'Anek Latin', sans-serif;
+}
+.league{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 135px;
+    right: 110px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+
+}
+.Level{
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    top: 129px;
+    left: 49px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(90, 93, 95);
+}
+.LevelCount{
+    position: absolute;
+    background-color: transparent;
+    top: 150px;
+    left: 55px;
+    font-size: 11px;
+    font-weight: 500;
+    color: rgb(224, 226, 227); 
+}
+.country{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 135px;
+    right: 9px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+    
+}
+.foot{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 165px;
+    right: 111px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+}
+.curve{
+    position: absolute;
+    border: 5px solid rgb(134, 138, 134);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom: 0;
+    width: 50px;
+    height: 30px;
+    top: 175px;
+    right: 43px;
+    background-color: transparent;
+}
+.eLogo{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 167px;
+    right: 8.0px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+}
+.rating{
+    font-size: 20px;
+    position: relative;
+    background-color: transparent;
+    color: rgb(0, 255, 8);
+    bottom: 1.5px;
+    left: 14px;
+    font-weight: 500;
+}
+
